@@ -1,0 +1,127 @@
+body {
+  font-family: 'Jost', Arial, sans-serif;
+  background-color: #f5f6fa;
+  font-size: 1.2rem;
+  margin: 0;
+}
+p {
+    text-indent: 20px;
+}
+#images-fon {padding-top:40px; clear: both; overflow: hidden;}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #2f80ed;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 5px 20px;
+  margin: 0 auto;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+
+.services h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2f2e41;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #f5f6fa;
+}
+
+.button a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button a:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #289ad6;
+}
+
+th {
+  background-color: rgba(209, 87, 87, 0);
+  text-align: center;
+}
+
+td:first-child {
+  width: 85%;
+  padding-left: 50px;
+}
